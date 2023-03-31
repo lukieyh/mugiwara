@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monda', sans-serif;;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    background-color: #47484C;
+
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1B1C20;
+    color: white;
+    
+}
+
+.navbar h3 {
+    font-size: 1.5rem;
+}
+
+header {
+    background-image: url("/src/img/layered-peaks-haikei.svg");
+    height: 700px;
+    background-size: cover;
+    background-color: #272727;
+   
+
+    
+}
+
+main h2 {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2.5px;
+}
+
+
+main .grid-cards {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: #232428;
+    width: 400px;
+    display: flex;
+    border-radius: 15px;
+   
+}
+
+.card img {
+    width: 160px;
+    height: 200px;
+    
+}	
+
+.card .download {
+    width: 50px;
+    height: 50px;    
+    
+    position: relative;
+    top: 140px;
+    right: 45px;
+}
+
+.card .photo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.card h3{
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 700;
+    
+}
+.card p {
+    position: relative;
+    
+    top: 75px;
+    right: 85px;
+    color: white;
+}
+
+.card .tam {
+    font-size: 1rem;
+    color: greenyellow;
+    position: relative;
+    top: 130px;
+    right: 175px;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.tripulacao img {
+    border-radius: 50%;
+    max-width: 100%;
+    width: 200px;
+    padding: 20px;
+}
+
+section h2 {
+    text-align: center;
+    color: white;
+}
+
+.tripulacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tripulacao p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    background-color: #1B1C20;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding-bottom: 40px;
+}
