@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monda', sans-serif;;
+}
+
+html {
+    scroll-behavior: smooth;
+   
+  }
+body {
+    background-color: #47484C;
+   
+
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1B1C20;
+    color: white;
+    
+}
+
+.navbar h3 {
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+
+main  {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2.5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+    
+
+
+}
+
+main .box{
+    padding: 50px;
+    width: 80%;
+    max-width: 1200px;
+    height: 100%;
+  
+    background-color: #232428 ;
+    border-top-right-radius: 96px;
+    border-top-left-radius: 96px;
+    border-bottom-left-radius: 96px;
+    border-bottom-right-radius: 96px;
+    display: flex;
+}
+
+main .box .btn {
+    display: flex;
+    flex-direction: column;
+}
+
+main .box .btn button {
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+
+main .box-img img {
+    border-radius: 50px;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+main .box-content {
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    flex-direction: column;
+    
+   
+}
+
+main .box-content .title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+main .box-content .desc {
+    color: white;   
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+main .box-content .req-min {
+    color: white;   
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+main .box-content .req-max {
+    color: white;   
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.btn a {
+    
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(0, 255, 55);
+    padding: 18px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+}
+
+.btn p {
+    margin-bottom: 20px;
+}
