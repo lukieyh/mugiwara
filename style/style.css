@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monda', sans-serif;;
+    font-family: 'Monda', sans-serif;
+    ;
 }
 
 html {
     scroll-behavior: smooth;
-  }
+}
+
 body {
     background-color: #47484C;
 
@@ -27,7 +29,7 @@ body {
     padding: 10px;
     background-color: #1B1C20;
     color: white;
-    
+
 }
 
 .navbar h3 {
@@ -40,9 +42,9 @@ header {
     height: 700px;
     background-size: cover;
     background-color: #272727;
-   
 
-    
+
+
 }
 
 main h2 {
@@ -60,19 +62,20 @@ main .grid-cards {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .card {
     background-color: #232428;
     width: 400px;
     display: flex;
     border-radius: 15px;
-   
+
 }
 
 .card img {
     width: 160px;
     height: 200px;
-    
-}	
+
+}
 
 .card .download {
     display: flex;
@@ -83,7 +86,7 @@ main .grid-cards {
     width: 60px;
     height: 60px;
     margin-top: 140px;
-    
+
 }
 
 .card .photo-card {
@@ -91,25 +94,37 @@ main .grid-cards {
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-    
+
 }
 
 .card .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   padding: 20px;
+    padding: 20px;
 }
 
 .card .content .gb {
     color: rgb(179, 255, 0);
     font-size: 1rem;
+
+}
+
+
+
+/* .card h3{
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 700;
     
-}	
-
-
-
-
+}
+.card p {
+    position: relative;
+    
+    top: 75px;
+    right: 85px;
+    color: white;
+} */
 
 .card .tam {
     font-size: 1rem;
@@ -146,7 +161,9 @@ section h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 20px;
 }
+
 .tripulacao p {
     text-align: center;
     font-weight: bold;
@@ -162,4 +179,9 @@ footer {
 
 section {
     padding-bottom: 40px;
+}
+
+.tripulacao .luffy {
+    margin-left: 40px;
+    margin-right: 40px;
 }
