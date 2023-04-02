@@ -63,6 +63,10 @@ main .grid-cards {
     justify-content: center;
 }
 
+.content {
+    color: white;
+}
+
 .card {
     background-color: #232428;
     width: 400px;
