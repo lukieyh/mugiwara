@@ -38,8 +38,8 @@ body {
 }
 
 header {
-    background-image: url("/src/img/layered-peaks-haikei.svg");
-    height: 700px;
+    background-image: url('./background/navio.jpg');
+    height: 900px;
     background-size: cover;
     background-color: #272727;
 

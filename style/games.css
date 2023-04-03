@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Monda', sans-serif;;
+    font-family: 'Monda', sans-serif;
+    ;
 }
 
 html {
     scroll-behavior: smooth;
-   
-  }
+
+}
+
 body {
     background-color: #47484C;
-   
+
 
 }
 
@@ -29,7 +31,7 @@ body {
     padding: 10px;
     background-color: #1B1C20;
     color: white;
-    
+
 }
 
 .navbar h3 {
@@ -37,7 +39,7 @@ body {
     padding-right: 20px;
 }
 
-main  {
+main {
     padding-top: 40px;
     text-align: center;
     color: white;
@@ -47,20 +49,16 @@ main  {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-   
-    
-    
-
 
 }
 
-main .box{
+main .box {
     padding: 50px;
     width: 80%;
     max-width: 1200px;
     height: 100%;
-  
-    background-color: #232428 ;
+
+    background-color: #232428;
     border-top-right-radius: 96px;
     border-top-left-radius: 96px;
     border-bottom-left-radius: 96px;
@@ -91,8 +89,8 @@ main .box-content {
     display: inline-block;
     margin-left: 20px;
     flex-direction: column;
-    
-   
+
+
 }
 
 main .box-content .title {
@@ -102,25 +100,25 @@ main .box-content .title {
 }
 
 main .box-content .desc {
-    color: white;   
+    color: white;
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
 main .box-content .req-min {
-    color: white;   
+    color: white;
     font-size: 1rem;
     margin-bottom: 30px;
 }
 
 main .box-content .req-max {
-    color: white;   
+    color: white;
     font-size: 1rem;
     margin-bottom: 30px;
 }
 
 .btn a {
-    
+
     display: block;
     text-decoration: none;
     color: black;
