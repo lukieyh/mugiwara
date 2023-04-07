@@ -38,9 +38,11 @@ body {
 }
 
 header {
-    background-image: url('./background/navio.jpg');
-    height: 900px;
-    background-size: cover;
+    background-image: url('./background/background-inicial.png');
+    background-position: center;
+    background-position-y: 100px;
+    height: 600px;
+    background-size: auto;
     background-color: #272727;
 
 
@@ -52,6 +54,7 @@ main h2 {
     text-align: center;
     color: white;
     letter-spacing: 2.5px;
+    font-size: 30px;
 }
 
 
@@ -72,13 +75,13 @@ main .grid-cards {
     width: 400px;
     display: flex;
     border-radius: 15px;
-
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .card img {
     width: 160px;
     height: 200px;
-
+    border-radius: 20px;
 }
 
 .card .download {
@@ -114,21 +117,6 @@ main .grid-cards {
 
 }
 
-
-
-/* .card h3{
-    padding-top: 15px;
-    padding-left: 20px;
-    font-weight: 700;
-    
-}
-.card p {
-    position: relative;
-    
-    top: 75px;
-    right: 85px;
-    color: white;
-} */
 
 .card .tam {
     font-size: 1rem;
@@ -188,4 +176,25 @@ section {
 .tripulacao .luffy {
     margin-left: 40px;
     margin-right: 40px;
+
+}
+
+.tripulacao img {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 632px) {
+    header {
+        background-image: url('./background/background-inicial.png');
+        background-position: center;
+        background-position-y: 100px;
+        height: 300px;
+        background-size: 1000px;
+        background-color: #272727;
+    }
+
+
+
+
 }
